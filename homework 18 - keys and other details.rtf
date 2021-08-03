@@ -1,0 +1,45 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf610
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;\red47\green180\blue29;
+\red22\green21\blue22;\red246\green246\blue246;}
+{\*\expandedcolortbl;;\csgray\c0;\csgray\c100000;\cssrgb\c20238\c73898\c14947;
+\cssrgb\c11373\c10980\c11373;\cssrgb\c97255\c97255\c97255;}
+\margl1440\margr1440\vieww18840\viewh17160\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \cb3 \CocoaLigature0 \
+Node 1: \
+Public address of the key:   0x754dD9e178Eb6b93baDDDaD48ca45155566940a2\
+Path of the secret key file: node1/keystore/UTC--2021-08-02T23-21-52.592443000Z--754dd9e178eb6b93badddad48ca45155566940a2\
+Private key: 0x9e3f61a4f1fea1d23b5425dddad4094ed736fd7e366ef7a5178210fbe321dd6a\
+\
+\
+Node 2: \
+\
+Public address of the key:   0x3A5DD9882D5f3a77eAD820CE0a5FA21F83adBaa3\
+Path of the secret key file: node2/keystore/UTC--2021-08-02T23-23-05.493537000Z--3a5dd9882d5f3a77ead820ce0a5fa21f83adbaa3\
+\
+\
+Network ID: 111\
+\
+Network name: dipsnet\
+\
+./geth --datadir node1 init dipsnet.json\
+./geth --datadir node2 init dipsnet.json
+\fs32 \
+\
+\
+./geth --datadir node1 --unlock \'93754dD9e178Eb6b93baDDDaD48ca45155566940a2\'94 --mine --rpc --allow-insecure-unlock\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\fs30   \cf4 self\cf2 =enode://2d4e714479e858c3ff9f5f9ebe0cf7996bde3e13645a045b57dd279a172424b76d53c999aacb31b443462c71e4e5c397e3095f781089426496489d7cb4a37432@192.168.8.54:30303\
+\
+\
+\pard\pardeftab720\sl340\partightenfactor0
+
+\f1 \cf5 \cb6 \expnd0\expndtw0\kerning0
+\CocoaLigature1 ./geth --datadir node2 --port 30304 --bootnodes "
+\f0 \cf2 \cb3 \kerning1\expnd0\expndtw0 \CocoaLigature0 enode://2d4e714479e858c3ff9f5f9ebe0cf7996bde3e13645a045b57dd279a172424b76d53c999aacb31b443462c71e4e5c397e3095f781089426496489d7cb4a37432@192.168.8.54:30303
+\f1 \cf5 \cb6 \expnd0\expndtw0\kerning0
+\CocoaLigature1 "}
